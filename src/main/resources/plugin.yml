@@ -1,0 +1,11 @@
+name: Man10DataCenter
+version: @version@
+main: red.man10.man10datacenter.Man10DataCenter
+api-version: 1.16
+commands:
+  hopperpipes:
+    aliases: [hp]
+    description: Base Hopper Pipes command.
+    usage: /<command>
+    permission: hopper.pipes.commands
+    permission-message: You don't have <permission>
